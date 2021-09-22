@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="L'ANAF a pour but de promouvoir l’apprentissage auprès des jeunes, des familles et des institutions, et de soutenir les apprenti·e·s tout au long de leur parcours.  "
+    />
+    <title>ANAF - Association Nationale des Apprentis de France</title>
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <a id="haut"></a>
+    <div class="container">
+      <header class="row">
+        <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+          <a href="./index.html" class="navbar-brand">
+            <img src="img/logo.png" width="90" height="20" alt="logo" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-three-dots-vertical"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+              />
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Accueil</a>
+              </li>
+              <li class="nav-item active">
+                <a href="./evenements.html" class="nav-link">Evènements</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div>
+          <p>Affichage</p>
+        </div>
+        <div>
+          <a
+            href="#"
+            id="event-liste-btn"
+            style="
+                margin: auto;
+                display: flex;
+            "
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-list-ul"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div>
+          <a
+            href="#"
+            id="event-calendrier-btn"
+            style="
+                display: flex;
+            "
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-calendar3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"
+              />
+              <path
+                d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+              />
+            </svg>
+          </a>
+        </div>
+        <section>
+          <div class="row">
+            <article class="article1 col-12 col-md-3">
+              <h2>
+                Les rencontres de l'apprentissage en Bourgogne Franche-Comté
+              </h2>
+              <a
+                href="https://jpo-cfa-bfc.fr/index.html"
+                class="btn btn-primary btn-lg active"
+                role="button"
+                aria-pressed="true"
+                >Site Officiel</a
+              >
+              <br />
+              <img
+                src="img/calendar_icon.png"
+                width="25"
+                height="25"
+                alt="calendar_icon"
+              />
+              <div>
+                <p>10 Mars 2021 - 3 Octobre 2021</p>
+                <p>Prix: Gratuit</p>
+                <img
+                  src="img/adress_icon.png"
+                  width="25"
+                  height="25"
+                  alt="adress_icon"
+                />
+                <p>Adresse:Belfort Belfort Bourgogne-Franche-Comté 90000</p>
+                <p>
+                  Avec LES RENCONTRES DE L’APPRENTISSAGE, découvrez des
+                  centaines de métiers qui se préparent en apprentissage, du CAP
+                  à Bac+5. Rejoignez les filières d’excellence et préparez votre
+                  avenir par la voie de l’apprentissage !
+                </p>
+                <img
+                  src="img/rencontre.jpeg"
+                  width="250"
+                  height="250"
+                  alt="affiche_evènement_rencontre"
+                />
+              </div>
+              <a href="#haut">haut de page</a>
+            </article>
+            <article class="article2 col-12 col-md-3">
+              <h2>
+                Tour de France des Apprentis à Rennes ! Coaching individuel avec
+                des experts !
+              </h2>
+              <a
+                href="https://tdf-apprenti.fr/jeune/"
+                class="btn btn-primary btn-lg active"
+                role="button"
+                aria-pressed="true"
+                >Site Officiel</a
+              >
+
+              <br />
+              <img
+                src="img/calendar_icon.png"
+                width="25"
+                height="25"
+                alt="calendar_icon"
+              />
+              <div>
+                <p>22 Septembre 2021</p>
+                <p>Prix: Gratuit</p>
+                <img
+                  src="img/adress_icon.png"
+                  width="25"
+                  height="25"
+                  alt="adress_icon"
+                />
+                <p>Adresse:2 Cr des Alliés Rennes Bretagne 35000</p>
+                <p>
+                  Le Tour de France des Futurs Apprentis fait étape à Rennes !
+                  Bénéficie gratuitement d’un coaching individuel avec des
+                  experts : Orientation, CV & Lettre de motivation, Savoir-être,
+                  Entretien, Posture professionnelle, Recherche d’entreprise Et
+                  des sessions collectives : L’alternance : Pro A, Contrat de
+                  professionnalisation, contrat d’apprentissage.
+                </p>
+                <img
+                  src="img/au_tour_des_apprentis.png"
+                  width="250"
+                  height="250"
+                  alt="affiche_au_tour_des_apprentis"
+                />
+              </div>
+              <a href="#haut">haut de page</a>
+            </article>
+            <article class="article3 col-12 col-md-3">
+              <h2>
+                Salon des Etudes Supérieures – Studyrama Grenoble
+              </h2>
+              <a
+                href="https://www.studyrama.com/salons/salon-studyrama-des-etudes-superieures-de-grenoble-196"
+                class="btn btn-primary btn-lg active"
+                role="button"
+                aria-pressed="true"
+                >Site Officiel</a
+              >
+              <br />
+              <img
+                src="img/calendar_icon.png"
+                width="25"
+                height="25"
+                alt="calendar_icon"
+              />
+              <div>
+                <p>12 Octobre 2021</p>
+                <p>Prix: Gratuit</p>
+                <img
+                  src="img/adress_icon.png"
+                  width="25"
+                  height="25"
+                  alt="adress_icon"
+                />
+                <p>
+                  Adresse:2 Av. d'Innsbruck Grenoble Auvergne-Rhône-Alpes 38100
+                </p>
+                <p>
+                  SALON DES ETUDES SUPERIEURES ALPEXPO – GRENOBLE Trouvez votre
+                  formation de Bac à Bac+5 dans tous les secteurs d’activité.
+                  Samedi 2 Octobre 2021 – 9h30 – 17h00 INSCRIPTION GRATUITE ET
+                  OBLIGATOIRE :
+                  https://www.studyrama.com/salons/salon-studyrama-des-etudes-superieures-de-grenoble-196
+                  Studyrama organise à nouveau son salon des Etudes Supérieures
+                  à l’Alpexpo de Grenoble, Hall Jean Marandjian, le samedi 2
+                  octobre 2021. Vous êtes lycéen, en classe prépa ou étudiant ?
+                  Venez découvrir des dizaines d’exposants de la région
+                  Rhône-Alpes et de la France entière. Vous êtes parents ?
+                  Visitez ce salon et rencontrez des établissements proposant
+                  des formations dans tous les secteurs d’activité : Art, Sport,
+                  Management, Ingénieur, Numérique, Commerce, Marketing, Luxe,
+                  Santé, Sciences…
+                </p>
+                <img
+                  src="img/grandes_ecoles.jpeg"
+                  width="250"
+                  height="300"
+                  alt="affiche_evènement_rencontre"
+                />
+              </div>
+              <a href="#haut">haut de page</a>
+            </article>
+
+            <article class="article4 col-12 col-md-3">
+              <h2>
+                Tour de France des Apprentis à Reims !
+              </h2>
+              <a
+                href="https://tdf-apprenti.fr/jeune/"
+                class="btn btn-primary btn-lg active"
+                role="button"
+                aria-pressed="true"
+                >Site Officiel</a
+              >
+              >
+              <br />
+              <img
+                src="img/calendar_icon.png"
+                width="25"
+                height="25"
+                alt="calendar_icon"
+              />
+              <div>
+                <p>6 octobre 2021</p>
+                <p>Prix: Gratuit</p>
+                <img
+                  src="img/adress_icon.png"
+                  width="25"
+                  height="25"
+                  alt="adress_icon"
+                />
+                <p>Adresse:41 Rue de Talleyrand Reims Grand Est 51100</p>
+                <p>
+                  Le Tour de France des Futurs Apprentis fait étape à Reims !
+                  Bénéficie gratuitement d’un coaching individuel avec des
+                  experts : Orientation, CV & Lettre de motivation, Savoir-être,
+                  Entretien, Posture professionnelle, Recherche d’entreprise Et
+                  des sessions collectives : L’alternance : Pro A, Contrat de
+                  professionnalisation, contrat d’apprentissage.
+                </p>
+                <img
+                  src="img/au_tour_des_apprentis.png"
+                  width="250"
+                  height="250"
+                  alt="affiche_au_tour_des_apprentis"
+                />
+              </div>
+              <a href="#haut">haut de page</a>
+            </article>
+            <article class="article5 col-12 col-md-3">
+              <h2>
+                Salon de l’Information Jeunesse- ARRAS
+              </h2>
+              <img
+                src="img/calendar_icon.png"
+                width="25"
+                height="25"
+                alt="calendar_icon"
+              />
+              <div>
+                <p>6 octobre 2021, 09:30-18:00</p>
+                <p>Prix: Gratuit</p>
+                <img
+                  src="img/adress_icon.png"
+                  width="25"
+                  height="25"
+                  alt="adress_icon"
+                />
+                <p>
+                  Adresse:Av. du Maréchal Leclerc Arras Hauts-de-France 62000
+                </p>
+                <p>
+                  Avec le soutien du département du Pas-de-Calais et en
+                  partenariat avec la Ville d’Arras, le CRIJ Hauts-de-France
+                  organise le 1er Salon de l’Info Jeunesse le mercredi 6 octobre
+                  à Arras de 9h30 à 16h afin de promouvoir l’information
+                  jeunesse dans le département du Pas-de-Calais. Jeunes,
+                  collégiens, lycéens, apprentis, jeunes salariés, parents ou
+                  professionnels pourront rencontrer lors de cette journée les
+                  acteurs du territoire, échanger avec eux et obtenir des
+                  conseils sur l’ensemble des thématiques couvertes par
+                  l’information jeunesse : études, emploi, formation, logement,
+                  santé, engagement, mobilité internationale, loisirs, sports,
+                  vacances… Ils pourront obtenir des conseils et découvrir
+                  l’ensemble des dispositifs et aides existants favorisant
+                  l’autonomie et la réussite des jeunes.
+                </p>
+                <img
+                  src="img/salon_info_jeunesse.jpeg"
+                  width="250"
+                  height="250"
+                  alt="affiche_au_tour_des_apprentis"
+                />
+              </div>
+              <a href="#haut">haut de page</a>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div>
+        <a href="mentions_legales">Mentions Légales</a>
+        <a href="confidentialite">Politique de Confidentialeté</a>
+        <a href="plan">Plan du Site</a>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
