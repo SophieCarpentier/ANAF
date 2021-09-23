@@ -14,8 +14,8 @@
   <body>
     <a id="haut"></a>
     <!--Navbar-->
-    <div class="container">
-      <header class="row">
+    <div class="container-fluid">
+      <header class="row justify-content-between justify-content-sm-around">
         <div class="card-header">
           <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
             <a href="./index.html" class="navbar-brand">
@@ -45,9 +45,9 @@
               </svg>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown" >
               <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a href="index.html" class="nav-link">Accueil</a>
                 </li>
                 <li class="nav-item">
@@ -101,10 +101,9 @@
           </div>
         </div>
         <!--Articles-->
-        <section>
           <a id="rencontres"></a>
-          <div class="row">
-            <article class="article1 col-12 col-md-3">
+          <div class="row justify-content-between justify-content-md-around">
+            <article class="col-md">
               <h2>
                 Les rencontres de l'apprentissage en Bourgogne Franche-Comté
               </h2>
@@ -138,21 +137,26 @@
                   à Bac+5. Rejoignez les filières d’excellence et préparez votre
                   avenir par la voie de l’apprentissage !
                 </p>
-                <img
-                  src="img/rencontre.jpeg"
-                  width="250"
-                  height="250"
-                  alt="affiche_evènement_rencontre"
-                />
               </div>
+            </article>
+
+              <div class="col-md">
+                  <img
+                    src="img/rencontre.jpeg"
+                    width="250"
+                    height="250"
+                    alt="affiche_evènement_rencontre"
+                  />
+              </div>
+              
               <!--Lien top-->
               <a href="#haut">haut de page</a>
-            </article>
+            
           </div>
 
-          <div class="row">
+          <div class="row justify-content-between justify-content-md-around">
             <a id="rennes"></a>
-            <article class="article2 col-12 col-md-3">
+            <article class="col-md">
               <h2>
                 Tour de France des Apprentis à Rennes ! Coaching individuel avec
                 des experts !
@@ -190,20 +194,26 @@
                   des sessions collectives : L’alternance : Pro A, Contrat de
                   professionnalisation, contrat d’apprentissage.
                 </p>
-                <img
-                  src="img/au_tour_des_apprentis.png"
-                  width="250"
-                  height="250"
-                  alt="affiche_au_tour_des_apprentis"
-                />
               </div>
-              <a href="#haut">haut de page</a>
             </article>
+
+            <div class="col-md">
+              <img
+                src="img/au_tour_des_apprentis.png"
+                width="250"
+                height="250"
+                alt="affiche_au_tour_des_apprentis"
+              />
+            </div>
+          
+              <a href="#haut">haut de page</a>
+            
           </div>
 
-          <div class="row">
-            <article class="article3 col-12 col-md-3">
+          <div class="row justify-content-between justify-content-md-around">
               <a id="grenoble"></a>
+            <article class="col-md">
+              
               <h2>
                 Salon des Etudes Supérieures – Studyrama Grenoble
               </h2>
@@ -249,18 +259,23 @@
                   Management, Ingénieur, Numérique, Commerce, Marketing, Luxe,
                   Santé, Sciences…
                 </p>
-                <img
-                  src="img/grandes_ecoles.jpeg"
-                  width="250"
-                  height="300"
-                  alt="affiche_evènement_rencontre"
-                />
-              </div>
-              <a href="#haut">haut de page</a>
             </article>
+
+            <div class="col-md">
+              <img
+                src="img/grandes_ecoles.jpeg"
+                width="250"
+                height="300"
+                alt="affiche_evènement_rencontre"
+              />
+            </div>
+
+              <a href="#haut">haut de page</a>
+            
           </div>
-          <div class="row">
-            <article class="article4 col-12 col-md-3">
+          <div class="row justify-content-between justify-content-md-around">
+              <a id="reims"></a>
+            <article class="col-md">
               <a id="reims"></a>
               <h2>
                 Tour de France des Apprentis à Reims !
@@ -298,6 +313,9 @@
                   des sessions collectives : L’alternance : Pro A, Contrat de
                   professionnalisation, contrat d’apprentissage.
                 </p>
+              </article>
+
+              <div class="col-md">
                 <img
                   src="img/au_tour_des_apprentis.png"
                   width="250"
@@ -306,12 +324,13 @@
                 />
               </div>
               <a href="#haut">haut de page</a>
-            </article>
+            
           </div>
 
-            <div class="row">
-              <article class="article5 col-12 col-md-3">
-                <a id="arras"></a>
+          <div class="row justify-content-between justify-content-md-around">
+              <a id="arras"></a>
+              <article class="col-md">
+                
                 <h2>
                   Salon de l’Information Jeunesse- ARRAS
                 </h2>
@@ -350,6 +369,9 @@
                     et aides existants favorisant l’autonomie et la réussite des
                     jeunes.
                   </p>
+                </article>
+
+                <div class="col-md">
                   <img
                     src="img/salon_info_jeunesse.jpeg"
                     width="250"
@@ -358,10 +380,9 @@
                   />
                 </div>
                 <a href="#haut">haut de page</a>
-              </article>
+              
             </div>
           </div>
-        </section>
       </main>
     </div>
     <footer>
