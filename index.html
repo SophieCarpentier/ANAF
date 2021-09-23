@@ -13,11 +13,14 @@
   </head>
   <body>
     <div class="container">
-            <header class="row">
-            <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+        <!--Navbar-->
+        <header class="row">
+            <div class="card-header">
+                <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
                     <a href="./index.html" class="navbar-brand">
                         <img src="img/logo.png" width="90" height="20" alt="logo">
                     </a>
+                    <!--Menu de la nav-->
                     <button
                     type="button"
                     class="navbar-toggler"
@@ -42,22 +45,25 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
+                </nav>
+            </div>
         </header>
     </div>
 
     <main>
         <article class="intro">
-            <p>L’Association Nationale des Apprentis de France (ANAF) est la seule et première organisation d’apprenti·e·s de France. L’ANAF est administrée par des apprenti·e·s ou ancien·nne·s apprenti·e·s, et animée par une équipe jeune. </p>
-            <nav id="toc">
-                <ul>
-                    <li><a href="#qui_sommes_nous">Qui sommes-nous ?</a>
-                    <li><a href="#nos_missions">Nos Missions</a>
-                    <li><a href="#quelques_chiffres">L'ANAF en quelques chiffres</a>
-                </ul>
-            </nav>
+            <div class="card">
+                <p class="card-body">L’Association Nationale des Apprentis de France (ANAF) est la seule et première organisation d’apprenti·e·s de France. L’ANAF est administrée par des apprenti·e·s ou ancien·nne·s apprenti·e·s, et animée par une équipe jeune. </p>
+                <nav id="toc">
+                    <ul>
+                        <li><a href="#qui_sommes_nous" class="card-link">Qui sommes-nous ?</a></li>
+                        <li><a href="#nos_missions" class="card-link">Nos Missions</a></li>
+                        <li><a href="#quelques_chiffres" class="card-link">L'ANAF en quelques chiffres</a></li>
+                    </ul>
+                </nav>
             <img src="img/intro_meeting.png"  width="300" height="300" alt="Intro meeting">
             </a>
+             </div>
         </article>
 
         <article>
@@ -79,7 +85,7 @@
                     <p class="card-text">Nous mettons tout en oeuvre pour que l’association représente les apprenti·e·s et leurs intérêts auprès des institutions. Proche des familles et des apprenti·e·s, nous les accompagnons tout au long de leur parcours. Au cœur des problématiques des jeunes apprenti·e·s, ancrée dans son époque, l’association construit avec son équipe un équilibre entre le monde économique et le monde éducatif.</p>
                     <p class="card-text">Aurélien Cadiou</p>
                     <p class="card-text">Président de l'ANAF</p>
-                 <a href="#toc">Retour au sommaire</a>
+                 <a href="#toc" class="card-link">Retour au sommaire</a>
                 </div>  
             </div>
         </aside>
@@ -91,7 +97,7 @@
                 <p class="card-text">L’ANAF représente et accompagne les apprenti·e·s et les futur·e·s apprenti·e·s tout au long de leur parcours et dans toutes leurs démarches, quelque soit leur âge ou leur formation.</p>
                     <section>
                         <img src="img/Mission_Representetion.png" alt="Representer les apprentis" class=card-img-top>
-                        <ul class="list-group">
+                        <ul class="list-group list-group-flush">
                             <li class="list-group-item">Porter leur voix au niveau régional, national et européen</li>
                             <li class="list-group-item">Défendre leurs intérêts</li>
                             <li class="list-group-item">Siéger au sein d’instances représentatives: Conseil économique social et environnemental & Conseil d’orientation des politiques de jeunesse</li>
@@ -101,7 +107,7 @@
 
                     <section>
                         <img src="img/Mission_Accompagner.png"  alt="Accompagner les apprentis" class=card-img-top>
-                        <ul class="list-group">
+                        <ul class="list-group list-group-flush">
                             <li class="list-group-item">Accompagnement personnalisé avant et pendant l’apprentissage avec la plateforme SOSApprenti.fr</li>
                             <li class="list-group-item">Réduction des taux de rupture avec le module de formation “Droits, devoirs et posture professionnelle”</li>
                             <li class="list-group-item">Aide à la recherche d’entreprise en alternance pendant le Tour de France des futur·e·s apprenti·e·s</li>
@@ -110,13 +116,13 @@
 
                     <section>
                         <img src="img/Mission_Promouvoir.png" alt="Promouvoir l'Apprentissage" class=card-img-top>
-                        <ul class="list-group">
+                        <ul class="list-group list-group-flush">
                             <li class="list-group-item">Présence sur les salons de la France entière</li>
                             <li class="list-group-item">Interventions dans les collèges et lycées</li>
                             <li class="list-group-item">Plateforme Filme Ton Job pour découvrir le quotidien et les métiers des apprenti·e·s en vidéos</li>
                         </ul>
                     </section>
-            <a href="#toc">Retour au sommaire</a>
+            <a href="#toc" class="card-link">Retour au sommaire</a>
         </div>  
         </article>
 
@@ -143,11 +149,11 @@
                 <p class="card-text">APPRENTI·E·S REPRÉSENTÉS VIA LES CFA ADHÉRENTS
                 </p>
             </div> 
-            <a href="#toc">Retour au sommaire</a>   
+            <a href="#toc" class="card-link">Retour au sommaire</a>   
         </article>
     </main>     
     <footer>
-        <div>
+        <div class='card-footer test-muted'>
             <a href="mentions_legales">Mentions Légales</a>
             <a href="confidentialite">Politique de Confidentialeté</a>
             <a href="plan">Plan du Site</a>
