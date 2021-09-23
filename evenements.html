@@ -13,98 +13,96 @@
   </head>
   <body>
     <a id="haut"></a>
+    <!--Navbar-->
     <div class="container">
       <header class="row">
-        <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
-          <a href="./index.html" class="navbar-brand">
-            <img src="img/logo.png" width="90" height="20" alt="logo" />
-          </a>
-          <button
-            type="button"
-            class="navbar-toggler"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-three-dots-vertical"
-              viewBox="0 0 16 16"
+        <div class="card-header">
+          <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+            <a href="./index.html" class="navbar-brand">
+              <img src="img/logo.png" width="90" height="20" alt="logo" />
+            </a>
+            <!--Menu de la nav-->
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              <path
-                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
-              />
-            </svg>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link">Accueil</a>
-              </li>
-              <li class="nav-item active">
-                <a href="./evenements.html" class="nav-link">Evènements</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a href="evenements.html" class="nav-link">Evènements</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </header>
       <main>
         <div>
-          <p>Affichage</p>
+          <!-- Menu déroulant "Filtre"-->
+          <div class="row">
+            <div class="dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                role="button"
+                id="derouanta"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Quel(s) évènement(s)</a
+              >
+              <div class="dropdown-menu" aria-labelledby="deroulanta">
+                <a href="#" class="dropdown-item">Tous les événements</a>
+
+                <a href="#rencontres" class="dropdown-item"
+                  >Les Rencontres de l'Apprentissage en Bourgogne
+                  Franche-comté</a
+                >
+
+                <a href="#rennes" class="dropdown-item"
+                  >Tour de France des Apprentis à Rennes</a
+                >
+
+                <a href="#grenoble" class="dropdown-item"
+                  >Salon des Etudes Supérieures - Studyrama Grenoble</a
+                >
+
+                <a href="#reims" class="dropdown-item"
+                  >Tour de France des Apprentis à Reims</a
+                >
+
+                <a href="#arras" class="dropdown-item"
+                  >Salon de l'Information Jeunesse - Arras</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <a
-            href="#"
-            id="event-liste-btn"
-            style="
-                margin: auto;
-                display: flex;
-            "
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-list-ul"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </a>
-        </div>
-        <div>
-          <a
-            href="#"
-            id="event-calendrier-btn"
-            style="
-                display: flex;
-            "
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-calendar3"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"
-              />
-              <path
-                d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </a>
-        </div>
+        <!--Articles-->
         <section>
+          <a id="rencontres"></a>
           <div class="row">
             <article class="article1 col-12 col-md-3">
               <h2>
@@ -147,8 +145,13 @@
                   alt="affiche_evènement_rencontre"
                 />
               </div>
+              <!--Lien top-->
               <a href="#haut">haut de page</a>
             </article>
+          </div>
+
+          <div class="row">
+            <a id="rennes"></a>
             <article class="article2 col-12 col-md-3">
               <h2>
                 Tour de France des Apprentis à Rennes ! Coaching individuel avec
@@ -196,7 +199,11 @@
               </div>
               <a href="#haut">haut de page</a>
             </article>
+          </div>
+
+          <div class="row">
             <article class="article3 col-12 col-md-3">
+              <a id="grenoble"></a>
               <h2>
                 Salon des Etudes Supérieures – Studyrama Grenoble
               </h2>
@@ -251,8 +258,10 @@
               </div>
               <a href="#haut">haut de page</a>
             </article>
-
+          </div>
+          <div class="row">
             <article class="article4 col-12 col-md-3">
+              <a id="reims"></a>
               <h2>
                 Tour de France des Apprentis à Reims !
               </h2>
@@ -298,53 +307,59 @@
               </div>
               <a href="#haut">haut de page</a>
             </article>
-            <article class="article5 col-12 col-md-3">
-              <h2>
-                Salon de l’Information Jeunesse- ARRAS
-              </h2>
-              <img
-                src="img/calendar_icon.png"
-                width="25"
-                height="25"
-                alt="calendar_icon"
-              />
-              <div>
-                <p>6 octobre 2021, 09:30-18:00</p>
-                <p>Prix: Gratuit</p>
+          </div>
+
+            <div class="row">
+              <article class="article5 col-12 col-md-3">
+                <a id="arras"></a>
+                <h2>
+                  Salon de l’Information Jeunesse- ARRAS
+                </h2>
                 <img
-                  src="img/adress_icon.png"
+                  src="img/calendar_icon.png"
                   width="25"
                   height="25"
-                  alt="adress_icon"
+                  alt="calendar_icon"
                 />
-                <p>
-                  Adresse:Av. du Maréchal Leclerc Arras Hauts-de-France 62000
-                </p>
-                <p>
-                  Avec le soutien du département du Pas-de-Calais et en
-                  partenariat avec la Ville d’Arras, le CRIJ Hauts-de-France
-                  organise le 1er Salon de l’Info Jeunesse le mercredi 6 octobre
-                  à Arras de 9h30 à 16h afin de promouvoir l’information
-                  jeunesse dans le département du Pas-de-Calais. Jeunes,
-                  collégiens, lycéens, apprentis, jeunes salariés, parents ou
-                  professionnels pourront rencontrer lors de cette journée les
-                  acteurs du territoire, échanger avec eux et obtenir des
-                  conseils sur l’ensemble des thématiques couvertes par
-                  l’information jeunesse : études, emploi, formation, logement,
-                  santé, engagement, mobilité internationale, loisirs, sports,
-                  vacances… Ils pourront obtenir des conseils et découvrir
-                  l’ensemble des dispositifs et aides existants favorisant
-                  l’autonomie et la réussite des jeunes.
-                </p>
-                <img
-                  src="img/salon_info_jeunesse.jpeg"
-                  width="250"
-                  height="250"
-                  alt="affiche_au_tour_des_apprentis"
-                />
-              </div>
-              <a href="#haut">haut de page</a>
-            </article>
+                <div>
+                  <p>6 octobre 2021, 09:30-18:00</p>
+                  <p>Prix: Gratuit</p>
+                  <img
+                    src="img/adress_icon.png"
+                    width="25"
+                    height="25"
+                    alt="adress_icon"
+                  />
+                  <p>
+                    Adresse:Av. du Maréchal Leclerc Arras Hauts-de-France 62000
+                  </p>
+                  <p>
+                    Avec le soutien du département du Pas-de-Calais et en
+                    partenariat avec la Ville d’Arras, le CRIJ Hauts-de-France
+                    organise le 1er Salon de l’Info Jeunesse le mercredi 6
+                    octobre à Arras de 9h30 à 16h afin de promouvoir
+                    l’information jeunesse dans le département du Pas-de-Calais.
+                    Jeunes, collégiens, lycéens, apprentis, jeunes salariés,
+                    parents ou professionnels pourront rencontrer lors de cette
+                    journée les acteurs du territoire, échanger avec eux et
+                    obtenir des conseils sur l’ensemble des thématiques
+                    couvertes par l’information jeunesse : études, emploi,
+                    formation, logement, santé, engagement, mobilité
+                    internationale, loisirs, sports, vacances… Ils pourront
+                    obtenir des conseils et découvrir l’ensemble des dispositifs
+                    et aides existants favorisant l’autonomie et la réussite des
+                    jeunes.
+                  </p>
+                  <img
+                    src="img/salon_info_jeunesse.jpeg"
+                    width="250"
+                    height="250"
+                    alt="affiche_au_tour_des_apprentis"
+                  />
+                </div>
+                <a href="#haut">haut de page</a>
+              </article>
+            </div>
           </div>
         </section>
       </main>
