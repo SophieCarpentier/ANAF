@@ -1,3 +1,115 @@
-.nav-item active {
-  color: orange;
+.card-header {
+  padding: 0.5rem 0rem;
+  margin-bottom: 15px;
+}
+
+body {
+  text-align: justify;
+  background-color: #e1f5fe;
+}
+
+.navbar-expand-lg,
+.card-footer {
+  background-color: #2980b9;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #2c3e50;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+li > a,
+h2 {
+  color: #2c3e50;
+}
+
+li > a:hover {
+  font-weight: bold;
+  color: #2980b9;
+}
+
+h3 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.justify-content-between {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.btn-info {
+  background-color: #2980b9;
+  color: #130f40;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.btn-info:hover {
+  background-color: #4a69bd;
+  color: #c7ecee;
+  font-weight: bold;
+}
+
+#pres {
+  color: #2980b9;
+}
+
+#cadiou {
+  width: 100%;
+}
+
+#ac {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.et_pb_image img {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.col {
+  padding-bottom: 15px;
+}
+
+.chiffres {
+  color: #2980b9;
+  font-weight: bold;
+  text-align: center;
+}
+.txt {
+  font-variant: small-capss
+}
+
+footer {
+  text-align: center;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+.footer > a {
+  color: #2c3e50;
+}
+
+.footer > a:hover {
+  color: #ecf0f1;
+  font-weight: bold;
 }

@@ -12,16 +12,15 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-        <a id="haut"></a>
+    <a id="haut"></a>
+    <!--Navbar-->
     <div class="container-fluid">
-      <!--Navbar-->
-      <div class="container-fluid">
-            <header class="row justify-content-between justify-content-sm-around">
-              <div class="card-header">
-                <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
-                  <a href="./index.html" class="navbar-brand">
-                    <img src="img/logo.png" width="90" height="20" alt="logo" />
-                  </a>
+      <header class="row justify-content-between justify-content-sm-around">
+        <div class="card-header">
+          <nav class="navbar navbar-dark  navbar-expand-lg">
+            <a href="./index.html" class="navbar-brand">
+              <img src="img/logo.png" width="90" height="20" alt="logo" />
+            </a>
             <!--Menu de la nav-->
             <button
               type="button"
@@ -47,7 +46,7 @@
             </button>
 
             <div
-              class="collapse navbar-collapse justify-content-center"
+              class="collapse navbar-collapse justify-content-end"
               id="navbarNavDropdown"
             >
               <ul class="navbar-nav">
@@ -68,15 +67,16 @@
       <div class="container">
         <!--intro-->
         <article class="row justify-content-between justify-content-md-around">
-          <div class="col-sm">
+          <div class="col-md">
             <p>
               L’Association Nationale des Apprentis de France (ANAF) est la
-              seule et première organisation d’apprenti·e·s de France. L’ANAF
-              est administrée par des apprenti·e·s ou ancien·nne·s apprenti·e·s,
-              et animée par une équipe jeune.
+              seule et première organisation d’apprentis de France. L’ANAF est
+              administrée par des apprentis ou anciens apprentis, et animée par
+              une équipe jeune.
             </p>
+            <br />
             <nav id="toc">
-              <ul>
+              <ul class="sommaire">
                 <li><a href="#qui_sommes_nous">Qui sommes-nous ?</a></li>
                 <li><a href="#nos_missions">Nos Missions</a></li>
                 <li>
@@ -85,110 +85,102 @@
               </ul>
             </nav>
           </div>
-          <div class="col xl-4 - md-6">
-            <img
-              src="img/intro_meeting.png"
-              width="300"
-              height="300"
-              alt="Intro meeting"
-            />
-          </div>
         </article>
 
         <!--qui sommes-nous-->
-    <section class="row ">
-            <div class="col-8 col-md-10">
-                <div class= "row justify-content-md-around ">
-                    <article class="col ">
-                        <div class="h-100 row justify-content-center align-items-center">
-                            <h2 id="qui_sommes_nous">Qui Sommes-Nous ?</h2>
+        <section class="row ">
+          <div class="col-8 col-md-10">
+            <div class="row justify-content-md-around ">
+              <article class="col ">
+                <div
+                  class="h-100 row justify-content-center align-items-center"
+                >
+                  <h2 id="qui_sommes_nous">Qui Sommes-Nous ?</h2>
 
-                            <img
-                            src="img/team_office.png"
-                            width="300"
-                            height="250"
-                            alt="Qui sommes-nous ?"
-                            />
+                  <img src="img/team_office.png" alt="Qui sommes-nous ?" />
 
-                            <h3>
-                            L’ANAF est une association à but non lucratif et reconnue d’intérêt général</h3>
-                                    
-                            <p>Créée en 2010 par cinq apprenti·e·s, elle a pour pour but de promouvoir l’apprentissage auprès des jeunes, des familles et des institutions, et de soutenir les apprenti·e·s tout au long de leur parcours.</p>  
-                            
-                            <h2>Rapport d'activité 2019</h2>
+                  <h3>
+                    L’ANAF est une association à but non lucratif et reconnue
+                    d’intérêt général
+                  </h3>
 
-                            <p>Vous pouvez découvrir toutes les actions concrètement menées par l'association en 2019 en téléchargeant le PDF de notre rapport d'activité</p>
-                            
+                  <p>
+                    Créée en 2010 par cinq apprenti·e·s, elle a pour pour but de
+                    promouvoir l’apprentissage auprès des jeunes, des familles
+                    et des institutions, et de soutenir les apprentis tout au
+                    long de leur parcours.
+                  </p>
 
-                            <a href="#" class="btn btn-info"> LIRE LE RAPPORT 2019</a>
+                  <h3>Rapport d'activité 2019</h3>
 
+                  <p>
+                    Vous pouvez découvrir toutes les actions concrètement menées
+                    par l'association en 2019 en téléchargeant le PDF de notre
+                    rapport d'activité
+                  </p>
 
-                        </div>
-                    </article>
+                  <a href="#" class="btn btn-info"> LIRE LE RAPPORT 2019</a>
                 </div>
+              </article>
             </div>
-            <aside class="col-4 col-md-2">
-                    <div class="h-100 row justify-content-center align-items-center">
-                        <h2>Un mot du Président</h2>
-                        <img
-                        src="img/president.png"
-                        width="5"
-                        height="80"
-                        alt="Aurélien Cadiou"
-                          />
-              
-                        <div>
-                            <p>
-                              Nous mettons tout en oeuvre pour que l’association représente
-                              les apprenti·e·s et leurs intérêts auprès des institutions.
-                              Proche des familles et des apprenti·e·s, nous les accompagnons
-                              tout au long de leur parcours. Au cœur des problématiques des
-                              jeunes apprenti·e·s, ancrée dans son époque, l’association
-                              construit avec son équipe un équilibre entre le monde économique
-                              et le monde éducatif.
-                            </p>
-                            <p>Aurélien Cadiou</p>
-                            <p>Président de l'ANAF</p>
-                        </div>
-                          
-                    </div>
-                </aside>
-    </section>
-                     
-        
+          </div>
+          <aside class="col-4 col-md-2">
+            <div class="h-100 row justify-content-center align-items-center">
+              <h2 id="pres">Un mot du Président</h2>
+              <img src="img/president.png" alt="Aurélien Cadiou" id="cadiou" />
+
+              <div>
+                <p>
+                  Nous mettons tout en oeuvre pour que l’association représente
+                  les apprentis et leurs intérêts auprès des institutions.
+                  Proche des familles et des apprentis, nous les accompagnons
+                  tout au long de leur parcours. Au cœur des problématiques des
+                  jeunes apprentis, nous construisons en équipe un équilibre
+                  entre le monde économique et le monde éducatif.
+                </p>
+                <p id="ac">Aurélien Cadiou</p>
+                <p>Président de l'ANAF</p>
+              </div>
+            </div>
+          </aside>
+        </section>
+
         <a href="#toc">Retour au sommaire</a>
         <br />
-        <br>
 
         <!--Nos missions-->
         <article class="row justify-content-between justify-content-md-around">
           <div class="col xl-4 - md-6">
             <h2 id="nos_missions">Nos missions</h2>
             <p>
-              L’ANAF représente et accompagne les apprenti·e·s et les futur·e·s
-              apprenti·e·s tout au long de leur parcours et dans toutes leurs
+              L’ANAF représente et accompagne les apprentis et les futur·e·s
+              apprentis tout au long de leur parcours et dans toutes leurs
               démarches, quelque soit leur âge ou leur formation.
             </p>
           </div>
         </article>
 
         <article class="row justify-content-between justify-content-md-around">
-          <div class="col-lg-4 col-md-6">
-            <img
-              src="img/Mission_Representetion.png"
-              alt="Representer les apprentis"
-              width="400"
-              height="300"
-            />
+          <div class="col-lg-4 col-md-6 ">
+            <span class="et_pb_image_wrap">
+              <img
+                src="img/Mission_Representetion.png"
+                alt="Representer les apprentis"
+                width="400"
+                height="300"
+                sizes="(min-width:opx) and (max-width:480px) 480px,(min-width:481px) 555px, 100vw"
+              />
+            </span>
             <ul class="list-unstyled">
               <li>
-                Porter leur voix au niveau régional, national et européen
+                <strong>Porter leur voix </strong>au niveau régional, national
+                et européen
               </li>
-              <li>Défendre leurs intérêts</li>
+              <li><strong>Défendre leurs intérêts</strong></li>
               <li>
-                Siéger au sein d’instances représentatives: Conseil économique
-                social et environnemental & Conseil d’orientation des politiques
-                de jeunesse
+                <strong>Siéger au sein d’instances représentatives:</strong>
+                Conseil économique social et environnemental & Conseil
+                d’orientation des politiques de jeunesse
               </li>
             </ul>
           </div>
@@ -202,16 +194,17 @@
             />
             <ul class="list-unstyled">
               <li>
-                Accompagnement personnalisé avant et pendant l’apprentissage
-                avec la plateforme SOSApprenti.fr
+                <strong>Accompagnement personnalisé</strong> avant et pendant
+                l’apprentissage avec la plateforme
+                <strong><a href="sosapprenti.fr">SOSApprenti.fr</a></strong>
               </li>
               <li>
-                Réduction des taux de rupture avec le module de formation
-                “Droits, devoirs et posture professionnelle”
+                <strong>Réduction des taux de rupture</strong> avec le module de
+                formation “Droits, devoirs et posture professionnelle”
               </li>
               <li>
-                Aide à la recherche d’entreprise en alternance pendant le Tour
-                de France des futur·e·s apprenti·e·s
+                <strong>Aide à la recherche d’entreprise</strong> en alternance
+                pendant le Tour de France des futurs apprentis
               </li>
             </ul>
           </div>
@@ -224,18 +217,28 @@
               height="300"
             />
             <ul class="list-unstyled">
-              <li>Présence sur les salons de la France entière</li>
-              <li>Interventions dans les collèges et lycées</li>
               <li>
-                Plateforme Filme Ton Job pour découvrir le quotidien et les
-                métiers des apprenti·e·s en vidéos
+                <strong>Présence sur les salons</strong> de la France entière
+              </li>
+              <li>
+                <strong>Interventions</strong> dans les collèges et lycées
+              </li>
+              <li>
+                <strong
+                  ><a href="filmetonjob.fr">Plateforme Filme Ton Job</a></strong
+                >
+                pour découvrir le quotidien et les métiers des apprentis en
+                vidéos
               </li>
             </ul>
           </div>
         </article>
 
+        <div class="h-100 row justify-content-center align-items-center">
+          <a href="#" class="btn btn-info"> Découvrir notre histoire</a>
+        </div>
+
         <a href="#toc">Retour au sommaire</a>
-        <br />
         <br />
 
         <!--Quelques chiffres-->
@@ -246,53 +249,56 @@
             </div>
           </div>
 
-          <div class="row row-cols-2 row-cols-md-6 row-cols-sm-12">
+          <div
+            class="row row justify-content-between justify-content-md-around row-cols-2 row-cols-md-6 row-cols-sm-12 align-items-center"
+          >
             <div class="col">
-              <p>50</p>
-              <p>
+              <p class="chiffres">50</p>
+              <p class="txt">
                 Jours de présence sur le terrain par an pour accompagner les
                 jeunes & les apprentis
               </p>
             </div>
 
             <div class="col">
-              <p>10000</p>
-              <p>
+              <p class="chiffres">10000</p>
+              <p class="txt">
                 Apprentis aidés par an partout en France grâce à sosapprenti.fr
               </p>
             </div>
 
             <div class="col">
-              <p>4000</p>
-              <p>
+              <p class="chiffres">4000</p>
+              <p class="txt">
                 Adhérents de tous âges et de tous diplômes partout en France
               </p>
             </div>
 
             <div class="col">
-              <p>2650</p>
-              <p>
+              <p class="chiffres">2650</p>
+              <p class="txt">
                 Jeunes & apprentis accompagnés par an partout en France
               </p>
             </div>
 
             <div class="col">
-              <p>23760</p>
-              <p>Apprentis représentés via les CFA adhérents.</p>
+              <p class="chiffres">23760</p>
+              <p class="txt">Apprentis représentés via les CFA adhérents</p>
             </div>
           </div>
         </article>
         <a href="#toc">Retour au sommaire</a>
         <br />
-        <br />
       </div>
     </main>
-    <a href="#haut">haut de page</a>
+    <a href="#haut">Haut de page</a>
     <footer>
       <div class="card-footer test-muted">
-        <a href="mentions_legales">Mentions Légales</a>
-        <a href="confidentialite">Politique de Confidentialeté</a>
-        <a href="plan">Plan du Site</a>
+        <nav class="footer">
+          <a href="#mentions_legales">Mentions Légales</a>
+          <a href="#confidentialite">Politique de Confidentialeté</a>
+          <a href="#plan">Plan du Site</a>
+        </nav>
       </div>
     </footer>
     <script

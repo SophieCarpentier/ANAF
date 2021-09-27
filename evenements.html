@@ -15,49 +15,53 @@
     <a id="haut"></a>
     <!--Navbar-->
     <div class="container-fluid">
-      <header class="row justify-content-between justify-content-sm-around">
-        <div class="card-header">
-          <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
-            <a href="./index.html" class="navbar-brand">
-              <img src="img/logo.png" width="90" height="20" alt="logo" />
-            </a>
-            <!--Menu de la nav-->
-            <button
-              type="button"
-              class="navbar-toggler"
-              data-toggle="collapse"
-              data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-three-dots-vertical"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
-                />
-              </svg>
-            </button>
+        <header class="row justify-content-between justify-content-sm-around">
+          <div class="card-header">
+            <nav class="navbar navbar-dark  navbar-expand-lg">
+              <a href="./index.html" class="navbar-brand">
+                <img src="img/logo.png" width="90" height="20" alt="logo" />
+              </a>
+        <!--Menu de la nav-->
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-three-dots-vertical"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+            />
+          </svg>
+        </button>
 
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown" >
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a href="index.html" class="nav-link">Accueil</a>
-                </li>
-                <li class="nav-item">
-                  <a href="evenements.html" class="nav-link">Evènements</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="evenements.html" class="nav-link">Evènements</a>
+            </li>
+          </ul>
         </div>
-      </header>
+      </nav>
+    </div>
+  </header>
+</div>
       <main>
         <div>
           <!-- Menu déroulant "Filtre"-->
@@ -379,19 +383,21 @@
                     alt="affiche_au_tour_des_apprentis"
                   />
                 </div>
-                <a href="#haut">haut de page</a>
+                <a href="#haut">Haut de page</a>
               
             </div>
           </div>
       </main>
     </div>
     <footer>
-      <div>
-        <a href="mentions_legales">Mentions Légales</a>
-        <a href="confidentialite">Politique de Confidentialeté</a>
-        <a href="plan">Plan du Site</a>
-      </div>
-    </footer>
+        <div class="card-footer test-muted">
+            <nav class="footer">
+          <a href= "#mentions_legales">Mentions Légales</a>
+          <a href="#confidentialite">Politique de Confidentialeté</a>
+          <a href="#plan">Plan du Site</a>
+          </nav>
+        </div>
+      </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
