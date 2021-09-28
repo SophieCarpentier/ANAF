@@ -92,17 +92,80 @@ img {
   text-align: center;
 }
 .txt {
-  font-variant: small-capss
-}
-
-footer {
-  text-align: center;
+  font-variant: small-caps;
 }
 
 a,
 a:hover {
   text-decoration: none;
   color: #2980b9;
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:visited {
+  color: #2980b9;
+}
+
+.dropdown-toggle {
+  font-size: 5vw;
+  width: 100%;
+  height: auto;
+  font-variant: small-caps;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4.5px double #2980b9;
+}
+
+.btn-primary.active {
+  background-color: #2980b9;
+  color: #130f40;
+}
+
+.btn-primary.active:hover {
+  background-color: #4a69bd;
+  color: #c7ecee;
+  font-weight: bold;
+}
+
+.dropdown-menu.show {
+  background-color: #2980b9;
+}
+
+.dropdown-item {
+  color: #130f40;
+}
+
+.row > a {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.calendar,
+.adress,
+.prix {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icon,
+.date,
+.lieu,
+.price {
+  display: inline-block;
+}
+
+.date,
+.lieu,
+.price {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+footer {
+  text-align: center;
 }
 
 .footer > a {

@@ -13,8 +13,8 @@
   </head>
   <body>
     <a id="haut"></a>
-    <!--Navbar-->
     <div class="container-fluid">
+      <!--Navbar-->
         <header class="row justify-content-between justify-content-sm-around">
           <div class="card-header">
             <nav class="navbar navbar-dark  navbar-expand-lg">
@@ -61,21 +61,20 @@
       </nav>
     </div>
   </header>
-</div>
+    
       <main>
-        <div>
-          <!-- Menu déroulant "Filtre"-->
-          <div class="row">
+        <!-- Menu déroulant-->
+        <div class="row ">
             <div class="dropdown">
               <a
-                href="#"
                 class="nav-link dropdown-toggle"
+                href="#"
                 role="button"
-                id="derouanta"
+                id="deroulanta"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                >Quel(s) évènement(s)</a
+                >Liste de nos événements</a
               >
               <div class="dropdown-menu" aria-labelledby="deroulanta">
                 <a href="#" class="dropdown-item">Tous les événements</a>
@@ -102,12 +101,14 @@
                 >
               </div>
             </div>
-          </div>
         </div>
+        
         <!--Articles-->
           <a id="rencontres"></a>
-          <div class="row justify-content-between justify-content-md-around">
-            <article class="col-md">
+          <div class="container">
+          <div class="row justify-content-between justify-content-sm-around">
+            <div class="col-sm-7">
+              <div class="h-100 row justify-content-center align-items-center">
               <h2>
                 Les rencontres de l'apprentissage en Bourgogne Franche-Comté
               </h2>
@@ -119,22 +120,45 @@
                 >Site Officiel</a
               >
               <br />
-              <img
-                src="img/calendar_icon.png"
-                width="25"
-                height="25"
-                alt="calendar_icon"
-              />
-              <div>
-                <p>10 Mars 2021 - 3 Octobre 2021</p>
-                <p>Prix: Gratuit</p>
-                <img
-                  src="img/adress_icon.png"
-                  width="25"
-                  height="25"
-                  alt="adress_icon"
+                <div class="calendar">
+                  <div class="icon">
+                  <img
+                    src="img/calendar_icon.png"
+                    width="25"
+                    height="25"
+                    alt="calendar_icon"
+                    />
+                  </div>
+                  <div class="date">
+                  <p>10 Mars 2021 - 3 Octobre 2021</p>
+                  </div>
+                </div>
+                <div class="prix">
+                  <div class="icon">
+                      <img
+                      src="img/euro-icon.png"
+                      width="25"
+                      height="25"
+                      alt="euro_icon"
+                      />
+                    </div>
+                    <div class="price">
+                      <p>Prix: Gratuit</p>
+                    </div>
+                  </div>
+                <div class="adress">
+                    <div class="icon">
+                      <img
+                      src="img/adress_icon.png"
+                      width="25"
+                      height="25"
+                      alt="adress_icon"
                 />
-                <p>Adresse:Belfort Belfort Bourgogne-Franche-Comté 90000</p>
+                      <div class="lieu">
+                      <p>Adresse: Belfort Belfort Bourgogne-Franche-Comté 90000</p>
+                      </div>
+                    </div>
+                  </div>
                 <p>
                   Avec LES RENCONTRES DE L’APPRENTISSAGE, découvrez des
                   centaines de métiers qui se préparent en apprentissage, du CAP
@@ -142,25 +166,30 @@
                   avenir par la voie de l’apprentissage !
                 </p>
               </div>
-            </article>
-
-              <div class="col-md">
-                  <img
-                    src="img/rencontre.jpeg"
-                    width="250"
-                    height="250"
-                    alt="affiche_evènement_rencontre"
-                  />
+            </div>
+            <div class="col-sm-5">
+                <div class="h-100 row justify-content-center align-items-center">
+              <img
+                src="img/rencontre.jpeg"
+                width="250"
+                height="180"
+                alt="affiche_evènement_rencontre"
+                />
               </div>
-              
+            </div>
+          </div>
+            <br>
+            
               <!--Lien top-->
-              <a href="#haut">haut de page</a>
+              <a href="#haut">Haut de page</a>
             
           </div>
 
-          <div class="row justify-content-between justify-content-md-around">
-            <a id="rennes"></a>
-            <article class="col-md">
+          <a id="rennes"></a>
+          <div class="container">
+          <div class="row justify-content-between justify-content-sm-around">
+            <div class="col-sm-7">
+              <div class="h-100 row justify-content-center align-items-center">
               <h2>
                 Tour de France des Apprentis à Rennes ! Coaching individuel avec
                 des experts !
@@ -172,24 +201,45 @@
                 aria-pressed="true"
                 >Site Officiel</a
               >
-
               <br />
-              <img
-                src="img/calendar_icon.png"
-                width="25"
-                height="25"
-                alt="calendar_icon"
+              <div class="calendar">
+                  <div class="icon">
+                  <img
+                    src="img/calendar_icon.png"
+                    width="25"
+                    height="25"
+                    alt="calendar_icon"
+                    />
+                  </div>
+                  <div class="date">
+                <p>22 Septembre 2021</p></div>
+              </div>
+              <div class="prix">
+                <div class="icon">
+                    <img
+                    src="img/euro-icon.png"
+                    width="25"
+                    height="25"
+                    alt="euro_icon"
+                    />
+                  </div>
+                  <div class="price">
+                    <p>Prix: Gratuit</p>
+                  </div>
+                </div>
+              <div class="adress">
+                  <div class="icon">
+                    <img
+                    src="img/adress_icon.png"
+                    width="25"
+                    height="25"
+                    alt="adress_icon"
               />
-              <div>
-                <p>22 Septembre 2021</p>
-                <p>Prix: Gratuit</p>
-                <img
-                  src="img/adress_icon.png"
-                  width="25"
-                  height="25"
-                  alt="adress_icon"
-                />
-                <p>Adresse:2 Cr des Alliés Rennes Bretagne 35000</p>
+                    <div class="lieu">
+                <p>Adresse: 2 Cr des Alliés Rennes Bretagne 35000</p>
+              </div>
+            </div>
+          </div>
                 <p>
                   Le Tour de France des Futurs Apprentis fait étape à Rennes !
                   Bénéficie gratuitement d’un coaching individuel avec des
@@ -198,26 +248,30 @@
                   des sessions collectives : L’alternance : Pro A, Contrat de
                   professionnalisation, contrat d’apprentissage.
                 </p>
-              </div>
-            </article>
-
-            <div class="col-md">
+            </div>
+          </div>
+          <div class="col-sm-5">
+              <div class="h-100 row justify-content-center align-items-center">
               <img
                 src="img/au_tour_des_apprentis.png"
                 width="250"
-                height="250"
+                height="180"
                 alt="affiche_au_tour_des_apprentis"
               />
             </div>
-          
-              <a href="#haut">haut de page</a>
+          </div>
+        </div>
+          <br>
+
+              <a href="#haut">Haut de page</a>
             
           </div>
 
-          <div class="row justify-content-between justify-content-md-around">
-              <a id="grenoble"></a>
-            <article class="col-md">
-              
+          <a id="grenoble"></a>
+          <div class="container">
+              <div class="row justify-content-between justify-content-sm-around">
+                <div class="col-sm-7">
+                  <div class="h-100 row justify-content-center align-items-center">
               <h2>
                 Salon des Etudes Supérieures – Studyrama Grenoble
               </h2>
@@ -229,24 +283,48 @@
                 >Site Officiel</a
               >
               <br />
-              <img
-                src="img/calendar_icon.png"
-                width="25"
-                height="25"
-                alt="calendar_icon"
-              />
-              <div>
+              <div class="calendar">
+                  <div class="icon">
+                  <img
+                    src="img/calendar_icon.png"
+                    width="25"
+                    height="25"
+                    alt="calendar_icon"
+                    />
+                  </div>
+                  <div class="date">
                 <p>12 Octobre 2021</p>
-                <p>Prix: Gratuit</p>
-                <img
+              </div>
+            </div>
+            <div class="prix">
+              <div class="icon">
+                  <img
+                  src="img/euro-icon.png"
+                  width="25"
+                  height="25"
+                  alt="euro_icon"
+                  />
+                </div>
+                <div class="price">
+                  <p>Prix: Gratuit</p>
+                </div>
+              </div>
+            <div class="adress">
+                <div class="icon">
+                  <img
                   src="img/adress_icon.png"
                   width="25"
                   height="25"
                   alt="adress_icon"
-                />
+            />
+                  <div class="lieu">
                 <p>
-                  Adresse:2 Av. d'Innsbruck Grenoble Auvergne-Rhône-Alpes 38100
+                  Adresse: 2 Av. d'Innsbruck Grenoble Auvergne-Rhône-Alpes 38100
                 </p>
+              </div>
+            </div>
+          </div>
+              
                 <p>
                   SALON DES ETUDES SUPERIEURES ALPEXPO – GRENOBLE Trouvez votre
                   formation de Bac à Bac+5 dans tous les secteurs d’activité.
@@ -263,24 +341,30 @@
                   Management, Ingénieur, Numérique, Commerce, Marketing, Luxe,
                   Santé, Sciences…
                 </p>
-            </article>
-
-            <div class="col-md">
+              </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="h-100 row justify-content-center align-items-center">
               <img
                 src="img/grandes_ecoles.jpeg"
                 width="250"
-                height="300"
+                height="180"
                 alt="affiche_evènement_rencontre"
               />
+                </div>
             </div>
+          </div>
+            <br>
 
-              <a href="#haut">haut de page</a>
+              <a href="#haut">Haut de page</a>
             
           </div>
-          <div class="row justify-content-between justify-content-md-around">
-              <a id="reims"></a>
-            <article class="col-md">
-              <a id="reims"></a>
+
+          <a id="reims"></a>
+          <div class="container">
+              <div class="row justify-content-between justify-content-sm-around">
+                <div class="col-sm-7">
+                  <div class="h-100 row justify-content-center align-items-center">
               <h2>
                 Tour de France des Apprentis à Reims !
               </h2>
@@ -291,24 +375,46 @@
                 aria-pressed="true"
                 >Site Officiel</a
               >
-              >
               <br />
-              <img
-                src="img/calendar_icon.png"
-                width="25"
-                height="25"
-                alt="calendar_icon"
-              />
-              <div>
+              <div class="calendar">
+                  <div class="icon">
+                  <img
+                    src="img/calendar_icon.png"
+                    width="25"
+                    height="25"
+                    alt="calendar_icon"
+                    />
+                  </div>
+                  <div class="date">
                 <p>6 octobre 2021</p>
-                <p>Prix: Gratuit</p>
-                <img
+              </div>
+            </div>
+            <div class="prix">
+              <div class="icon">
+                  <img
+                  src="img/euro-icon.png"
+                  width="25"
+                  height="25"
+                  alt="euro_icon"
+                  />
+                </div>
+                <div class="price">
+                  <p>Prix: Gratuit</p>
+                </div>
+              </div>
+            <div class="adress">
+                <div class="icon">
+                  <img
                   src="img/adress_icon.png"
                   width="25"
                   height="25"
                   alt="adress_icon"
-                />
-                <p>Adresse:41 Rue de Talleyrand Reims Grand Est 51100</p>
+            />
+                  <div class="lieu">
+                <p>Adresse: 41 Rue de Talleyrand Reims Grand Est 51100</p>
+              </div>
+            </div>
+          </div>
                 <p>
                   Le Tour de France des Futurs Apprentis fait étape à Reims !
                   Bénéficie gratuitement d’un coaching individuel avec des
@@ -317,45 +423,75 @@
                   des sessions collectives : L’alternance : Pro A, Contrat de
                   professionnalisation, contrat d’apprentissage.
                 </p>
-              </article>
-
-              <div class="col-md">
-                <img
-                  src="img/au_tour_des_apprentis.png"
-                  width="250"
-                  height="250"
-                  alt="affiche_au_tour_des_apprentis"
-                />
               </div>
-              <a href="#haut">haut de page</a>
-            
+            </div>
+            <div class="col-sm-5">
+                <div class="h-100 row justify-content-center align-items-center">
+              <img
+                src="img/au_tour_des_apprentis.png"
+                width="250"
+                height="180"
+                alt="affiche_au_tour_des_apprentis"
+              />
+            </div>
+          </div>
+        </div>
+          <br>
+
+                <a href="#haut">Haut de page</a>
+              
           </div>
 
-          <div class="row justify-content-between justify-content-md-around">
-              <a id="arras"></a>
-              <article class="col-md">
-                
+          <a id="arras"></a>
+          <div class="container">
+              <div class="row justify-content-between justify-content-sm-around">
+                <div class="col-sm-7">
+                  <div class="h-100 row justify-content-center align-items-center">
                 <h2>
                   Salon de l’Information Jeunesse- ARRAS
                 </h2>
-                <img
-                  src="img/calendar_icon.png"
-                  width="25"
-                  height="25"
-                  alt="calendar_icon"
-                />
-                <div>
+                <div class="calendar">
+                    <div class="icon">
+                    <img
+                      src="img/calendar_icon.png"
+                      width="25"
+                      height="25"
+                      alt="calendar_icon"
+                      />
+                    </div>
+                    <div class="date">
                   <p>6 octobre 2021, 09:30-18:00</p>
-                  <p>Prix: Gratuit</p>
-                  <img
+                </div>
+              </div>
+              <div class="prix">
+                <div class="icon">
+                    <img
+                    src="img/euro-icon.png"
+                    width="25"
+                    height="25"
+                    alt="euro_icon"
+                    />
+                  </div>
+                  <div class="price">
+                    <p>Prix: Gratuit</p>
+                  </div>
+                </div>
+              <div class="adress">
+                  <div class="icon">
+                    <img
                     src="img/adress_icon.png"
                     width="25"
                     height="25"
                     alt="adress_icon"
-                  />
+              />
+                    <div class="lieu">
                   <p>
-                    Adresse:Av. du Maréchal Leclerc Arras Hauts-de-France 62000
+                    Adresse: Av. du Maréchal Leclerc Arras Hauts-de-France 62000
                   </p>
+                </div>
+              </div>
+            </div>
+            
                   <p>
                     Avec le soutien du département du Pas-de-Calais et en
                     partenariat avec la Ville d’Arras, le CRIJ Hauts-de-France
@@ -373,22 +509,29 @@
                     et aides existants favorisant l’autonomie et la réussite des
                     jeunes.
                   </p>
-                </article>
-
-                <div class="col-md">
-                  <img
-                    src="img/salon_info_jeunesse.jpeg"
-                    width="250"
-                    height="250"
-                    alt="affiche_au_tour_des_apprentis"
+                </div>
+              </div>
+              <div class="col-sm-5">
+                  <div class="h-100 row justify-content-center align-items-center">
+              <img
+                src="img/salon_info_jeunesse.jpeg"
+                width="250"
+                height="180"
+                alt="affiche_au_tour_des_apprentis"
                   />
                 </div>
-                <a href="#haut">Haut de page</a>
-              
+              </div>
             </div>
+              <br>
+
+            <a href="#haut">Haut de page</a>
+
           </div>
+
+
       </main>
     </div>
+  </div>
     <footer>
         <div class="card-footer test-muted">
             <nav class="footer">
